@@ -33,7 +33,7 @@ def get_stock_history_data():
 
     # 使用 cursor() 方法创建一个游标对象 cursor
     cursor = db.cursor()
-    #获取股票每天的数据
+    #获取股票每天的数据 111
     sql = "insert into all_stock_historydata values(%s, %s, %s, %s, %s, %s, %s, %s)"
     #获取股票周期数据-月线 or 年线
     # sql = "insert into all_stock_historydata_interval values(%s, %s, %s, %s, %s, %s, %s, %s, %s)"
